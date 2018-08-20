@@ -9,7 +9,31 @@ function setCart(c) {
   return cart;
 }
 
+function addToCart
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function addToCart(item) {
   var itemObj = {};
   var price = Math.floor(Math.random()*100)+1;
@@ -82,3 +106,4 @@ addToCart("oatmeal");
 viewCart();
 removeFromCart("nuts");
 placeOrder(123123123);
+*/
