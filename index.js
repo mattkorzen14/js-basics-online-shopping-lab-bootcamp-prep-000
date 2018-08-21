@@ -17,7 +17,7 @@ function addToCart(itemName) {
   return ` ${itemName} has been added to your cart.`
 }
 addToCart("bananas");
-
+addToCart("nuts");
 
 
 
