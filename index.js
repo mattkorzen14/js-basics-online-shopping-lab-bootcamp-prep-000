@@ -18,6 +18,31 @@ function addToCart(itemName) {
 }
 
 function viewCart() {
+  if (cart.length===0) {
+    return "Your shopping cart is empty."
+  }
+  else {
+    var output = "In your cart, you have ";
+    let value = "";
+    for (var i = 0; i< cart.length; i++ ) {
+      //var object = cart[i];
+      //console.log(object);
+      output +=  `${cart[0]['itemName']} at $${cart[0]['price']}`;
+      if (i === cart.length-1) {
+        output += "."
+      }
+      else if(i===cart.length-2) {
+        output += ", and "
+      }
+      else {
+        output += ", "
+      }
+    }
+    console.log(output);
+    return output;
+  }
+}
+
 addToCart("bananas");
 addToCart("nuts");
 
