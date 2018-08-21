@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(itemName) {
-  val item = 
+  val item = {"itemName": itemName}
 }
 
 
