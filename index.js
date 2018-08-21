@@ -16,7 +16,7 @@ function addToCart(itemName) {
   var itemObj = {item: price};
   console.log(itemObj);
 }
-addtoCart("bananas");
+addToCart("bananas");
 
 
 
