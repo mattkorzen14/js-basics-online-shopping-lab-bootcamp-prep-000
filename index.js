@@ -51,7 +51,7 @@ return sum;
 function removeFromCart(itemName) {
   for(var i = 0; i < cart.length; i++) {
     if (cart[i]['itemName']===itemName) {
-      
+      cart.splice(i,1)
     }
   }
 }
