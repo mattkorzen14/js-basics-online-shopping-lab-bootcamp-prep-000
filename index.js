@@ -48,7 +48,9 @@ for (var i = 0; i< cart.length; i++ ) {
 console.log(sum)
 return sum;
 }
-function removeFromCart()
+function removeFromCart(itemName) {
+  
+}
 
 addToCart("bananas");
 addToCart("nuts");
