@@ -43,6 +43,7 @@ function viewCart() {
 
 addToCart("bananas");
 addToCart("nuts");
+viewCart();
 
 
 
