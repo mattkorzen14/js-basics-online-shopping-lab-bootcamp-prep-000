@@ -74,7 +74,7 @@ addToCart("oats");
 viewCart();
 total();
 removeFromCart("oats")
-placeOrder();
+placeOrder(123123);
 
 
 
