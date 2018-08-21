@@ -60,7 +60,8 @@ function removeFromCart(itemName) {
 }
 
 function placeOrder(cardNumber) {
-  
+  if (arguments.length === 0) {
+    return 
 }
 
 addToCart("bananas");
