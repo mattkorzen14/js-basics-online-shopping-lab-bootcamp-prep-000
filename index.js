@@ -70,8 +70,10 @@ function placeOrder(cardNumber) {
 
 addToCart("bananas");
 addToCart("nuts");
+addToCart("oats");
 viewCart();
 total();
+placeOrder();
 
 
 
