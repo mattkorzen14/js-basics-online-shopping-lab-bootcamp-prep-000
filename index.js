@@ -9,7 +9,9 @@ function setCart(c) {
   return cart;
 }
 
-
+function addToCart(itemName) {
+  
+}
 
 
 
