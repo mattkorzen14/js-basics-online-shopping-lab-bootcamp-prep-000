@@ -73,6 +73,7 @@ addToCart("nuts");
 addToCart("oats");
 viewCart();
 total();
+removeFromCart("oats")
 placeOrder();
 
 
