@@ -41,6 +41,8 @@ function viewCart() {
   }
 }
 
+function 
+
 addToCart("bananas");
 addToCart("nuts");
 viewCart();
