@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(itemName) {
   var item = {itemName: itemName};
-  var itemObj = {item: 
+  var price = 
 }
 
 
