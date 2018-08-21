@@ -49,11 +49,11 @@ for (i = 0; i< cart.length; i++ ) {
 console.log(sum)
 return sum;
 }
-}
 
 addToCart("bananas");
 addToCart("nuts");
 viewCart();
+total();
 
 
 
