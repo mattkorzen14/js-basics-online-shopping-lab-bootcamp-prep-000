@@ -65,7 +65,7 @@ function placeOrder(cardNumber) {
 }
   cost = total();
   cart = [];
-  return 
+  return `Your total cost is ${cost}.
 }
 
 addToCart("bananas");
