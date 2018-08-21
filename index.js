@@ -40,7 +40,6 @@ function viewCart() {
     return output;
   }
 }
-
 function total() {
    var sum = 0;
 for (var i = 0; i< cart.length; i++ ) {
@@ -49,6 +48,7 @@ for (var i = 0; i< cart.length; i++ ) {
 console.log(sum)
 return sum;
 }
+function removeFromCart()
 
 addToCart("bananas");
 addToCart("nuts");
