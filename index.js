@@ -16,6 +16,8 @@ function addToCart(itemName) {
  //console.log(cart);
   return `${itemName} has been added to your cart.`
 }
+
+function viewCart() {
 addToCart("bananas");
 addToCart("nuts");
 
