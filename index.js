@@ -12,8 +12,8 @@ function setCart(c) {
 function addToCart(itemName) {
   var itemPrice = Math.floor(Math.random()*100)+1;
   var itemObj = {itemName: itemName, itemPrice: itemPrice};
-  console.log(item);
-  console.log(price);
+  console.log(itemName);
+  console.log(itemPrice);
   console.log(itemObj);
 }
 addToCart("bananas");
