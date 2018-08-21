@@ -48,6 +48,7 @@ for (var i = 0; i< cart.length; i++ ) {
 console.log(sum)
 return sum;
 }
+
 function removeFromCart(itemName) {
   for(var i = 0; i < cart.length; i++) {
     if (cart[i]['itemName']===itemName) {
@@ -56,6 +57,10 @@ function removeFromCart(itemName) {
     }
   }
   return "That item is not in your cart."
+}
+
+function placeOrder(cardNumber) {
+  
 }
 
 addToCart("bananas");
