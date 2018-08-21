@@ -49,7 +49,11 @@ console.log(sum)
 return sum;
 }
 function removeFromCart(itemName) {
-  
+  for(var i = 0; i < cart.length; i++) {
+    if (cart[i]['itemName']===itemName) {
+      
+    }
+  }
 }
 
 addToCart("bananas");
