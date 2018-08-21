@@ -25,9 +25,7 @@ function viewCart() {
     var output = "In your cart, you have ";
     let value = "";
     for (var i = 0; i< cart.length; i++ ) {
-      //var object = cart[i];
-      //console.log(object);
-      output +=  `${cart[0]['itemName']} at $${cart[0]['itemPrice']}`;
+      output +=  `${cart[i]['itemName']} at $${cart[i]['itemPrice']}`;
       if (i === cart.length-1) {
         output += "."
       }
