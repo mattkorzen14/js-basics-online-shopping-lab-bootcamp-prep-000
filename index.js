@@ -41,7 +41,15 @@ function viewCart() {
   }
 }
 
-function 
+function total() {
+   var sum = 0;
+for (i = 0; i< cart.length; i++ ) {
+  sum += cart[i]['itemPrice'];
+}
+console.log(sum)
+return sum;
+}
+}
 
 addToCart("bananas");
 addToCart("nuts");
